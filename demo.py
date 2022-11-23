@@ -1,5 +1,2 @@
-# import module
-import webbrowser
-
-# open html file
-webbrowser.open('index.html')
+f = open("index.html", "r")
+print(f.read())
